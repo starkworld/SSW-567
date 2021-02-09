@@ -41,9 +41,9 @@ class TriangleClassification(unittest.TestCase):
         """
         Testcases classify isosceles triangle
         """
-        self.assertEqual(classify_triangle(2, 2, 3), 'Isosceles Triangle')
+        self.assertEqual(classify_triangle(65, 65, 130), 'Isosceles Triangle')
         self.assertEqual(classify_triangle(2, 3, 3), 'Isosceles Triangle')
-        self.assertEqual(classify_triangle(3, 2, 3), 'Isosceles Triangle')
+        self.assertEqual(classify_triangle(4, 6, 4), 'Isosceles Triangle')
 
     def test_classify_scalene_triangles(self):
         """
@@ -58,6 +58,8 @@ class TriangleClassification(unittest.TestCase):
         Testcases classify right triangle
         """
         self.assertEqual(classify_triangle(3, 4, 5), 'Right Angle Triangle')
+        self.assertEqual(classify_triangle(5, 12, 13), 'Right Angle Triangle')
+        self.assertEqual(classify_triangle(8, 15, 17), 'Right Angle Triangle')
 
     def test_classify_invalid_triangle(self):
         """
