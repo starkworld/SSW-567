@@ -47,7 +47,7 @@ class TriangleClassification(unittest.TestCase):
         self.assertEqual(classifyTriangle(201, 3, 1), 'NotATriangle')
         self.assertEqual(classifyTriangle(-1, 3, 1), 'Invalid Input values')
         self.assertEqual(classifyTriangle(1.5, 3, 1), 'Invalid Input values')
-        self.assertEqual(classifyTriangle(1, 2, 10), 'NotATriangle')
+
 
 
 if __name__ == '__main__':
