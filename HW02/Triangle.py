@@ -2,7 +2,7 @@
 Created on Tuesday 16 Feb 13:44:00 2021
 
 
-The primary goal of this file is to demonstrate a simple python program to classify triangles
+The primary goal of this file is to demonstrate simple python program to classify triangles
 
 @author: Nikhil Kalyan
 """

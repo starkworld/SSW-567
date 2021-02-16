@@ -49,7 +49,6 @@ class TriangleClassification(unittest.TestCase):
         self.assertEqual(classifyTriangle(1.5, 3, 1), 'Invalid Input values')
 
 
-
 if __name__ == '__main__':
     print('Unittest Running')
     unittest.main(exit=False, verbosity=2)
