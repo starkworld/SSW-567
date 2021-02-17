@@ -2,7 +2,7 @@ from Triangle import classifyTriangle
 import unittest
 
 
-class TriangleClassification(unittest.TestCase):
+class TestTriangle(unittest.TestCase):
     """
     Testing Classify triangle method
     Unittest class
