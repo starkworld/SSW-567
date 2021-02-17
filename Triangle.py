@@ -6,6 +6,7 @@ The primary goal of this file is to demonstrate simple python program to classif
 
 @author: Nikhil Kalyan
 """
+from typing import Set
 
 
 def classifyTriangle(a:int, b:int, c: int) -> str:
@@ -24,7 +25,7 @@ def classifyTriangle(a:int, b:int, c: int) -> str:
       CAUTION: there may be a bug or two in this code
     """
 
-    intersection: set = {a, b, c} & {a, b, c}
+    intersection: Set = {a, b, c} & {a, b, c}
     is_right_triangle: bool = a ** 2 + b ** 2 == c ** 2
     triangle_class: str = 'Invalid Input values'
 
