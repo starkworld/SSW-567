@@ -9,7 +9,7 @@ The primary goal of this file is to demonstrate simple python program to classif
 from typing import Set
 
 
-def classifyTriangle(a:int, b:int, c: int) -> str:
+def classifyTriangle(a, b, c):
     """
 
     This function returns a string with the type of triangle from three integer values
@@ -26,8 +26,8 @@ def classifyTriangle(a:int, b:int, c: int) -> str:
     """
 
     intersection = {a, b, c} & {a, b, c}
-    is_right_triangle: bool = a ** 2 + b ** 2 == c ** 2
-    triangle_class: str = 'Invalid Input values'
+    is_right_triangle = a ** 2 + b ** 2 == c ** 2
+    triangle_class = 'Invalid Input values'
 
     # if values are invalid then return invalid input
     if a <= 0 or b <= 0 or c <= 0:
@@ -45,12 +45,12 @@ def classifyTriangle(a:int, b:int, c: int) -> str:
 
     # now we know that we have a valid triangle
     if is_right_triangle:
-        triangle_classification: str = 'Right Angle Triangle'
+        triangle_classification = 'Right Angle Triangle'
     elif len(intersection) == 1:
-        triangle_classification: str = 'Equilateral  Triangle'
+        triangle_classification = 'Equilateral  Triangle'
     elif len(intersection) == 2:
-        triangle_classification: str = 'Isosceles Triangle'
+        triangle_classification = 'Isosceles Triangle'
     else:
-        triangle_classification: str = 'Scalene Triangle'
+        triangle_classification = 'Scalene Triangle'
 
     return triangle_classification
