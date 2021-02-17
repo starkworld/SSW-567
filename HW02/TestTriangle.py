@@ -23,7 +23,7 @@ class TestTriangle(unittest.TestCase):
         self.assertEqual(classifyTriangle(2, 3, 3), 'Isosceles Triangle')
         self.assertEqual(classifyTriangle(4, 6, 4), 'Isosceles Triangle')
 
-    def TestTriangle(self):
+    def test_classify_scalene_triangle(self):
         """
         Testcases scalene triangle
         """
