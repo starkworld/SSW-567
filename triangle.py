@@ -9,7 +9,7 @@ The primary goal of this file is to demonstrate simple python program to classif
 from typing import Set
 
 
-def classifyTriangle(a, b, c):
+def classify_triangle(a, b, c):
     """
 
     This function returns a string with the type of triangle from three integer values

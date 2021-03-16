@@ -1,4 +1,4 @@
-def classifyTriangle(a, b, c):
+def classify_triangle(a, b, c):
     intersection = {a, b, c} & {a, b, c}
     is_right_triangle = a ** 2 + b ** 2 == c ** 2
     triangle_class = 'Invalid Input values'
