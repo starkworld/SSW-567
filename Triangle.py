@@ -30,7 +30,7 @@ def classifyTriangle(a, b, c):
     triangle_class = 'Invalid Input values'
 
     # if values are invalid then return invalid input
-    if a <= 0 or b <= 0 or c <= 0:
+    if a < 0 or b < 0 or c < 0:
         return triangle_class
 
     # verify that all 3 inputs are integers
